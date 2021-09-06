@@ -58,13 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ This interaction takes place wherever a person mines crypocurrency, at an office, by a home computer, at a place full of coomputers deticated for mining, etc. The player can also choose to display the notification where he is most likely to notice it and than he can act appropriately when needed.
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ The individuals that interact with this gadget are people than mine cryptocurrencies, wheather they do it y themselves at home or professionally at a mining center.
 
-_Activity:_ What is happening between the actors?
+_Activity:_ The activity is individuals mining cryptocurrenciies.
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ The goal oof the gadget is to notify the players of the status of their mining computers/algorithms. If the computer starts receiving unusually many invalid shares the light becomes more red and the player should take action, perhaps restart the system. If it is green there is n action needed.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 

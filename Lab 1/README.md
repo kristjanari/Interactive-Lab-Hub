@@ -130,7 +130,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-###A video of the prototype:
+### A video of the prototype:
 
 https://youtu.be/jeE3tEhL88A
 

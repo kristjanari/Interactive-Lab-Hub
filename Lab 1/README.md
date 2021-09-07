@@ -74,6 +74,8 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 \*\***Include a picture of your storyboard here**\*\*
 
+<img width="785" alt="image" src="https://user-images.githubusercontent.com/42963791/132271811-9caad968-d086-4ed9-a147-5b82faa66c22.png">
+
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
@@ -122,15 +124,25 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your device might look like here.**\*\*
 
+<img width="976" alt="image" src="https://user-images.githubusercontent.com/42963791/132271856-0e9e3ae7-6b76-4a5c-82eb-877779668ede.png">
+
+Prototype final design:
+
+<img width="537" alt="image" src="https://user-images.githubusercontent.com/42963791/132271978-dcd0c188-49c7-492c-87b3-fa875f3b4784.png">
+
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
+A video of the prototype:
+
+https://youtu.be/jeE3tEhL88A
 
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+I worked with Donal, dml333, on this assignment.
 
 
 

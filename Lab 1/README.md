@@ -67,11 +67,11 @@ _Activity:_ The activity is individuals mining cryptocurrenciies.
 _Goals:_ Cryptocurrency miners receive currency as a reward for completing "blocks" of verified transactions, which are added to the blockchain. Mining rewards are paid to the miner who discovers a solution to a complex hashing puzzle first, and the probability that a participant will be the one to discover the solution is related to the portion of the total mining power on the network. The goal of the the players is to mine as many coins as possible. The gadget will notify the players of the status of their mining computers/algorithms. If the computer starts receiving unusually many invalid shares the light becomes more red and the player should take action, perhaps restart the system because. If it is green there is n action needed. If he is notified when the system breaks he can react quickly which reduces energy and computing power waste.
 
 
-# The storyboard:
+### The storyboard:
 
 <img width="785" alt="image" src="https://user-images.githubusercontent.com/42963791/132271811-9caad968-d086-4ed9-a147-5b82faa66c22.png">
 
-# Presenting the idea to the other people in the breakout room
+### Presenting the idea to the other people in the breakout room
 
 Originally the idea was just to display a red light when an invalid share appears. After discussing it in a group the idea evolved. The people pointed out that theindicator should display different shades of red and green for the average of the past few shares, then one failure is not dramatic but if many fail in a row the warning becomes more aggressive.
 
@@ -79,10 +79,10 @@ Originally the idea was just to display a red light when an invalid share appear
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-# Are there things that seemed better on paper than acted out?
+### Are there things that seemed better on paper than acted out?
 The light looked more noticable on paper than in reality. There are are a lot of lights aroound the desk,  from the monitor, keyboard, computter itself, etc.
 
-# Are there new ideas that occur to you or your collaborators that come up from the acting?
+### Are there new ideas that occur to you or your collaborators that come up from the acting?
 After discovering this we changed the placement of the light to be in a more noticable part of the room, e.g. the cieling or on the wall.
 
 
@@ -96,7 +96,7 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-# Feedback on Tinkerbelle
+### Feedback on Tinkerbelle
 I had some issues starting Tinkerbelle, but we got it working on my classmate's computer. After we got it gooing it worked quite smoothly and it proved to be a nice tool for prototyping.
 
 
@@ -116,11 +116,11 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-# sketches of how the device might look like
+### sketches of how the device might look like
 
 <img width="976" alt="image" src="https://user-images.githubusercontent.com/42963791/132271856-0e9e3ae7-6b76-4a5c-82eb-877779668ede.png">
 
-# Prototype final design:
+### Prototype final design:
 
 <img width="537" alt="image" src="https://user-images.githubusercontent.com/42963791/132271978-dcd0c188-49c7-492c-87b3-fa875f3b4784.png">
 
@@ -130,11 +130,11 @@ Think about the setting of the device: is the environment a place where the devi
 
 ## Part F. Record
 
-# A video of the prototype:
+###A video of the prototype:
 
 https://youtu.be/jeE3tEhL88A
 
-# Collaboration
+### Collaboration
 I worked with Donal, dml333, on this assignment.
 
 

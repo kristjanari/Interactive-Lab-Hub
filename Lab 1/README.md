@@ -64,7 +64,7 @@ _Players:_ The individuals that interact with this gadget are people than mine c
 
 _Activity:_ The activity is individuals mining cryptocurrenciies.
 
-_Goals:_ The goal oof the gadget is to notify the players of the status of their mining computers/algorithms. If the computer starts receiving unusually many invalid shares the light becomes more red and the player should take action, perhaps restart the system. If it is green there is n action needed.
+_Goals:_ Cryptocurrency miners receive currency as a reward for completing "blocks" of verified transactions, which are added to the blockchain. Mining rewards are paid to the miner who discovers a solution to a complex hashing puzzle first, and the probability that a participant will be the one to discover the solution is related to the portion of the total mining power on the network. The goal of the the players is to mine as many coins as possible. The gadget will notify the players of the status of their mining computers/algorithms. If the computer starts receiving unusually many invalid shares the light becomes more red and the player should take action, perhaps restart the system because. If it is green there is n action needed. If he is notified when the system breaks he can react quickly which reduces energy and computing power waste.
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
@@ -77,15 +77,17 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-
+Originally the idea was just to display a red light when an invalid share appears. After discussing it in a group the idea evolved. The people pointed out that theindicator should display different shades of red and green for the average of the past few shares, then one failure is not dramatic but if many fail in a row the warning becomes more aggressive.
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
+The light looked more noticable on paper than in reality. There are are a lot of lights aroound the desk,  from the monitor, keyboard, computter itself, etc.
 
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+After discovering this we changed the placement of the light to be in a more noticable part of the room, e.g. the cieling or on the wall.
 
 
 ## Part C. Prototype the device
@@ -99,6 +101,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
+I had some issues starting Tinkerbelle, but we got it working on my classmate's computer. After we got it gooing it worked quite smoothly and it proved to be a nice tool for prototyping.
 
 
 ## Part D. Wizard the device

@@ -149,6 +149,11 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+I only goot oone comooment on Canvas. There it was suggested that we added a warning light to indicate when the software starts to compute wrong hashes. That mechanism was already inicluded in the device but it was probably not clear in the video. The light was supposed to go gradually from green to red as more wrong hashes are caalculated. It seems the orange and yellow lights fail to indicate the warning that something is beginning to go wrong.
+
+As I only recieved one comment on Caanvas I asked the students at my table in the lab. They felt that the video was not clear, the light wasn't visible enough, the backround was too distracting and the actor doesn't show enough interaction wth the device.
+
+I feel that those are valuable observations and I will try to improve them in the next round by improving the warning sign and focusing more on the device in the video. After the comments I feel the green light is distracting, mot of the time the software is up and running smoothly so the light should just be off at that time. When the software begins to compute wrong hashes and orange light will blink. If too many wrong hashes occur in a row red and blue light will alternate adn an alarm will sound. 
 
 ## Make it your own
 

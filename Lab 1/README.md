@@ -101,17 +101,55 @@ I had some issues starting Tinkerbelle at first, but we got it working on my com
 
 
 ## Part D. Wizard the device
-Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
-
-\*\***Include your first attempts at recording the set-up video here.**\*\*
 
 Setting up Tinkerbelle
 
 https://youtu.be/eSSHQjrBd6M
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+To mimic a miner software we wrote a simple script in Python:
 
-\*\***Show the follow-up work here.**\*\*
+
+import time
+
+class bcolors:
+    OKGREEN = '\033[92m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+
+MESSAGE_WAIT = 2
+
+def valid():
+    print(f"{bcolors.OKGREEN}Eth: GPU1: ETH share found! \nEth: Share actual difficulty: 14.1 GH (!)\nEth: Share accepted in 7 ms{bcolors.ENDC}")
+    time.sleep(MESSAGE_WAIT)
+
+def invalid():
+    print(f"{bcolors.FAIL}Eth: GPU1: ETH share invalid! \nEth: Share actual difficulty: 15.1 GH (!)\nEth: Share rejected in 5 ms{bcolors.ENDC}")
+    time.sleep(MESSAGE_WAIT)
+
+def stale():
+    print(f"{bcolors.WARNING}Eth: GPU1: ETH share stale! \nEth: Share actual difficulty: 10.6 GH (!){bcolors.ENDC}")
+    time.sleep(MESSAGE_WAIT)
+
+def normal():
+    print("Eth: New job #7a6b44n from ssl://eth-us-east.flexpool.io:5555; diff: 4000 MH")
+    time.sleep(MESSAGE_WAIT)
+
+def restart():
+    print("RESTARTING.....")
+    time.sleep(1)
+    print('\n.')
+    time.sleep(1)
+    print('\n.')
+    time.sleep(1)
+    print('\n.')
+    time.sleep(1)
+    print('\n.')
+    time.sleep(1)
+    print('\n.')
+    time.sleep(MESSAGE_WAIT)
+    
+ 
+ We then ran that script in the terminal and representaed the status of the minner by using Tinkerbelle.
 
 
 ## Part E. Costume the device

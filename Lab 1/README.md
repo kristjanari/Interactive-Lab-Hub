@@ -97,13 +97,17 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 ### Feedback on Tinkerbelle
-I had some issues starting Tinkerbelle, but we got it working on my classmate's computer. After we got it gooing it worked quite smoothly and it proved to be a nice tool for prototyping.
+I had some issues starting Tinkerbelle at first, but we got it working on my computer. After we got it gooing it worked quite smoothly and it proved to be a nice tool for prototyping.
 
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
+
+Setting up Tinkerbelle
+
+https://youtu.be/eSSHQjrBd6M
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -168,7 +172,7 @@ Do last week’s assignment again, but this time:
 
 <img width="866" alt="image" src="https://user-images.githubusercontent.com/42963791/133124487-98a5c077-ef24-4d72-a041-5ca352a11e12.png">
 
-In the new prootootype the device displays neutral (white) light when the miner is working as intended. When the system begins to behave somewhat incorrectly the device flashing a yellow/orange light to indicate some minor error that should be observed. If the system then starts to experience more severe failure the device flashes a red warning light and plays an alarming sound. These changes were made after considering the comments we got. The green light of the old prototype was too prominent and the user did not notice the yellow light that was supposed to warn about small failure. By having a natural light and flashing the orange light we feel the warning is much more clear and the user will be more likely to notice it and interviene before complete failure. The flashing red light and alarm are moreover far more noticable than the constant red light of the old device. 
+In the new protootype the device displays neutral (white) light when the miner is working as intended. When the system begins to behave somewhat incorrectly the device flashes a yellow/orange light to indicate some minor error that should be observed. If the system then starts to experience more severe failure the device flashes a red warning light and plays an alarming sound. These changes were made after considering the comments we got. The green light of the old prototype was too prominent and the user did not notice the change to the yellow light that was supposed to warn about small failure. By having a natural light and flashing the orange light we feel the warning is much more clear and the user will be more likely to notice it and interviene before complete failure. The flashing red light and alarm are moreover far more noticable than the constant red light of the old device. 
 We also tried to improve the video quality because of the comment we got. We tried to express the purpose of the device more clearly splitting the sceen, showing the miner status separately, and displaying text to explain some scenarios of the video.
 
 ### A video of the improved prototype:

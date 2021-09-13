@@ -147,10 +147,9 @@ This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+### Feedback form classmates
 
-\*\***Summarize feedback from your partners here.**\*\*
-I only goot oone comooment on Canvas. There it was suggested that we added a warning light to indicate when the software starts to compute wrong hashes. That mechanism was already inicluded in the device but it was probably not clear in the video. The light was supposed to go gradually from green to red as more wrong hashes are caalculated. It seems the orange and yellow lights fail to indicate the warning that something is beginning to go wrong.
+I only got one comooment on Canvas. There it was suggested that we added a warning light to indicate when the software starts to compute wrong hashes. That mechanism was already inicluded in the device but it was probably not clear in the video. The light was supposed to go gradually from green to red as more wrong hashes are caalculated. It seems the orange and yellow lights fail to indicate the warning that something is beginning to go wrong.
 
 As I only recieved one comment on Caanvas I asked the students at my table in the lab. They felt that the video was not clear, the light wasn't visible enough, the backround was too distracting and the actor doesn't show enough interaction wth the device.
 

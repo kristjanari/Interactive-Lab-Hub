@@ -158,19 +158,12 @@ I feel that those are valuable observations and I will try to improve them in th
 
 ## Make it your own
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
-
-\*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+In the new protootype the device displays neutral (white) light when the miner is working as intended. When the system begins to behave somewhat incorrectly the device flashes a yellow/orange light to indicate some minor error that should be observed. If the system then starts to experience more severe failure the device flashes a red warning light and plays an alarming sound. These changes were made after considering the comments we got. The green light of the old prototype was too prominent and the user did not notice the change to the yellow light that was supposed to warn about small failure. By having a natural light and flashing the orange light we feel the warning is much more clear and the user will be more likely to notice it and interviene before complete failure. The flashing red light and alarm are moreover far more noticable than the constant red light of the old device. 
+We also tried to improve the video quality because of the comment we got. We tried to express the purpose of the device more clearly splitting the sceen, showing the miner status separately, and displaying text to explain some scenarios of the video.
 
 ### The storyboard:
 
 <img width="866" alt="image" src="https://user-images.githubusercontent.com/42963791/133124487-98a5c077-ef24-4d72-a041-5ca352a11e12.png">
-
-In the new protootype the device displays neutral (white) light when the miner is working as intended. When the system begins to behave somewhat incorrectly the device flashes a yellow/orange light to indicate some minor error that should be observed. If the system then starts to experience more severe failure the device flashes a red warning light and plays an alarming sound. These changes were made after considering the comments we got. The green light of the old prototype was too prominent and the user did not notice the change to the yellow light that was supposed to warn about small failure. By having a natural light and flashing the orange light we feel the warning is much more clear and the user will be more likely to notice it and interviene before complete failure. The flashing red light and alarm are moreover far more noticable than the constant red light of the old device. 
-We also tried to improve the video quality because of the comment we got. We tried to express the purpose of the device more clearly splitting the sceen, showing the miner status separately, and displaying text to explain some scenarios of the video.
 
 ### A video of the improved prototype:
 https://www.youtube.com/watch?v=96IsJhStaT4

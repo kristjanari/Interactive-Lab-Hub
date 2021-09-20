@@ -54,7 +54,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 16)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -67,9 +67,58 @@ while True:
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     timenow = strftime("%m/%d/%Y %H:%M:%S")
+    hour_now = strftime("%H")
+    min_now = strftime("%M")
+    min_1 = int(min_now) // 10
+    min_2 = int(min_now) % 10
+    sec_now = strftime("%S")
+    
+    pm = int(hour_now) // 12
+
+    hours = [str(i) for i in range(12)]
+    mins = [str(i) for i in range(6)] 
+    minss = [str(i) for i in range(10)]
+
     y = top
-    draw.text((x, y), timenow, font=font, fill="#FFFFFF")
-    sleep(1)
-    # Display image.
+    x = 0
+    fill = "#FFFFFF"
+    for h in hours:
+        text = str(h) + " "
+        fill = "#00FF00" if (int(hour_now) % 12) == int(h) else "#FFFFFF"
+        draw.text((x, y), text, font=font, fill=fill)
+        x += font.getsize(text)[0]
+        sleep(1)
+    
+    x = width/4
+    y += font.getsize("am")[1]
+    
+    fill = "#00FF00" if not pm else "#FFFFFF"
+    draw.text((x, y), "am", font=font, fill=fill)
+    
+    x = 2*width/4
+    fill = "#00FF00" if pm else "#FFFFFF"
+    draw.text((x, y), "am", font=font, fill=fill)
+    
+    x = 0
+    y += font.getsize("am")[1]
+
+    for m in mins:
+        text = str(m) + " "
+        fill = "#00FF00" if int(min_1) == int(m) else "#FFFFFF"
+        draw.text((x, y), text, font=font, fill=fill)
+        x += font.getsize(text)[0]
+        sleep(1)
+    
+    x = 0
+    y += font.getsize(text)[1]
+    
+    for m in minss:
+        text = str(m) + " "
+        fill = "#00FF00" if int(min_2) == int(m) else "#FFFFFF"
+        draw.text((x, y), text, font=font, fill=fill)
+        x += font.getsize(text)[0]
+        sleep(1)
+
+    # Display image
     disp.image(image, rotation)
     time.sleep(1)

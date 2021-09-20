@@ -87,7 +87,6 @@ while True:
         fill = "#00FF00" if (int(hour_now) % 12) == int(h) else "#FFFFFF"
         draw.text((x, y), text, font=font, fill=fill)
         x += font.getsize(text)[0]
-        sleep(1)
     
     x = width/4
     y += font.getsize("am")[1]
@@ -107,7 +106,6 @@ while True:
         fill = "#00FF00" if int(min_1) == int(m) else "#FFFFFF"
         draw.text((x, y), text, font=font, fill=fill)
         x += font.getsize(text)[0]
-        sleep(1)
     
     x = 0
     y += font.getsize(text)[1]
@@ -117,8 +115,13 @@ while True:
         fill = "#00FF00" if int(min_2) == int(m) else "#FFFFFF"
         draw.text((x, y), text, font=font, fill=fill)
         x += font.getsize(text)[0]
-        sleep(1)
 
+    x = 0
+    y += 2*font.getsize(text)[1]
+    text = "|"
+    for i in range(int(sec_now)):
+        draw.text((x,y), text, font=font, fill="#00FF00")
+        x += 0.7 * font.getsize(text)[0]
     # Display image
     disp.image(image, rotation)
     time.sleep(1)

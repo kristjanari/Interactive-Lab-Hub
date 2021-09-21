@@ -111,7 +111,7 @@ I would like to develop two more designs to display time and make them all avail
 
 One idea is to display an image on the screen that slowly fades away as the minute passes to reveal the current time.
 
-Another one is to 
+Another one is to represent it with a grid display. The x-axis is the hours and y-axis is minutes. The cell colored is the current time and the brightness determines seconds.
 
 # Prep for Part 2
 

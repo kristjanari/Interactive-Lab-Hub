@@ -61,42 +61,11 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. 
 ### Connect to your Pi
-Just like you did in the lab prep, ssh on to your pi. Once you get there, create a Python environment by typing the following commands.
 
-```
-ssh pi@<your Pi's IP address>
-...
-pi@ixe00:~ $ virtualenv circuitpython
-pi@ixe00:~ $ source circuitpython/bin/activate
-(circuitpython) pi@ixe00:~ $ 
-
-```
-### Setup Personal Access Tokens on GitHub
-The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
-
-Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
+I followed the steps in the lab prep to set up the Raspberry Pi without problems.
 
 ## Part B. 
 ### Try out the Command Line Clock
-Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
-
-```
-(circuitpython) pi@ixe00:~$ git clone https://github.com/<YOURGITID>/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
-```
-Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
-
-
-Install the packages from the requirements.txt and run the example script `cli_clock.py`:
-
-```
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ pip install -r requirements.txt
-(circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
-02/24/2021 11:20:49
-```
-
-The terminal should show the time, you can press `ctrl-c` to exit the script.
-If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
 
 The clock running in the terminal:
 
@@ -105,26 +74,8 @@ The clock running in the terminal:
 
 ## Part C. 
 ### Set up your RGB Display
-We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
 
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
-
-The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
-
-<img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
-
-To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. Some terms may be unfamiliar but we will go over the relevant ones as they come up.
-
-### Hardware (you have done this in the prep)
-
-From your kit take out the display and the [Raspberry Pi 4](https://cdn-shop.adafruit.com/1200x900/4296-13.jpg)
-
-Line up the screen and press it on the headers. The hole in the screen should match up with the hole on the raspberry pi.
-
-<p float="left">
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/087/539/medium640/adafruit_products_4393_quarter_ORIG_2019_10.jpg?1579991932" height="200" />
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/082/861/original/adafruit_products_image.png" height="200">
-</p>
+I finished the process of setting up the hardware in the  lab prep.
 
 #### Displaying an image
 
@@ -135,8 +86,8 @@ I exhanged the Cornell Tech logo with a picture of myself.
 
 ## Part D. 
 ### Set up the Display Clock Demo
-Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
+To display the time on the Raspberry Pi I got the time value as in cli_clock.py and displayed it with the same methods as are used in stats.py.
 
 ## Part E.
 ### My barebones clock

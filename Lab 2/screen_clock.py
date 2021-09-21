@@ -83,7 +83,7 @@ while True:
     x = 0
     fill = "#FFFFFF"
     for h in hours:
-        text = str(h) + " "
+        text = str(h) + " " if h != "0" else "12" + " "
         fill = "#00FF00" if (int(hour_now) % 12) == int(h) else "#FFFFFF"
         draw.text((x, y), text, font=font, fill=fill)
         x += font.getsize(text)[0]
@@ -96,7 +96,7 @@ while True:
     
     x = 2*width/4
     fill = "#00FF00" if pm else "#FFFFFF"
-    draw.text((x, y), "am", font=font, fill=fill)
+    draw.text((x, y), "pm", font=font, fill=fill)
     
     x = 0
     y += font.getsize("am")[1]

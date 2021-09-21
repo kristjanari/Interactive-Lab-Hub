@@ -113,6 +113,10 @@ One idea is to display an image on the screen that slowly fades away as the minu
 
 Another one is to represent it with a grid display. The x-axis is the hours and y-axis is minutes. The cell colored is the current time and the brightness determines seconds.
 
+<img width="734" alt="image" src="https://user-images.githubusercontent.com/42963791/134100536-43bc9fb7-8bc7-4019-9c59-53b3ff499097.png">
+
+Another one is to represent it with a grid display. The x-axis is the hours and y-axis is minutes. The cell colored is the current time and the brightness determines seconds.
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit.

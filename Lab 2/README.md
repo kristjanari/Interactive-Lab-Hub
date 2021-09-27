@@ -131,11 +131,6 @@ Another one is to represent it with a grid display. The x-axis is the hours and 
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
-
-Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
-
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 Again, I partly worked with Donal, dml333, on this assignment.
 

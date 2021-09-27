@@ -163,7 +163,7 @@ def custom_clock(x, y, hour_now, min_now, sec_now):
     x = 0
     y += font.getsize(text)[1]
     if sensor.proximity > 200:
-        draw.text((x,y), 'Wow!, this is dark!', font=font2, fill="#FFFFFF")
+        draw.text((x,y), 'Wow!, this is clos!', font=font2, fill="#FFFFFF")
     disp.image(image, rotation)
 
 def display_face(hour_now, min_now, sec_now):

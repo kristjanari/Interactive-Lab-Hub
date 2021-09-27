@@ -139,12 +139,15 @@ As always, make sure you document contributions and ideas from others explicitly
 
 Again, I partly worked with Donal, dml333, on this assignment.
 
-The code for the new implementation is available in clock_part2.py
+The code for the new implementation is available in clock_part2.py.
+
+This new clock makes use of the green led button and the proximity sensor.
+
+There are two displays available that represent the current time (one from part 1 and 1 new one) - to change between them one can simply press the button. If the button hasn't been pressed for 30 seconds it starts flashing until pressed again. Both displays change a little when the proximity sensor is stimulated. The design from part 1 displays a text while the new design changes the color of the time. The new displays the current time and the seconds are represented with the width of a picture of my face.
 
 ## A video of the improved clock
 
 https://youtu.be/oA4hQ3SbxkQ
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
 

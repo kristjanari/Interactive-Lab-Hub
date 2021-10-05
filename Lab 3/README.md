@@ -109,10 +109,11 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 <img width="794" alt="image" src="https://user-images.githubusercontent.com/42963791/135949191-1d223489-d38d-44e8-8cdb-e6be72282ca1.png">
 
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/42963791/135950143-3d49ac96-ecd4-40bf-a315-31f50c1e15b9.png">
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
-\*\***Please describe and document your process.**\*\*
+I tried to think of things that hve annoyed me in my daily life for the past few weeks. The first thing that came to mind is that I have forgotten to buy groceries for over a week, I just remember it when I open the fridge. I thought it would be helpful if I could tell a device every time I get an idea/think of a task that need to be observed later. The ideas/tasks would be displayed on a website and hence the task list can be shared. If I tell the device I need to buy milk, my roommate can see it and buy milk if he's on the way to the store. Speaking to the device is natural/effortless for the user and by deploying straight to an line dashboard the list can be shared with multiple users.
+
 
 ### Acting out the dialogue
 

@@ -70,6 +70,8 @@ One thing you might need to pay attention to is the audio input setting of Pi. S
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
 
+The file speech.sh (in speechtotext folder) asks the user for his phone number. Then the program reads the phone number back to the user and asks for confirmation and reacts appropriately.
+
 Bonus Activity:
 
 If you are really excited about Speech to Text, you can try out [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [voice2json](http://voice2json.org/install.html)

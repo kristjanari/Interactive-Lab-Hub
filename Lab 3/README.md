@@ -5,7 +5,7 @@ In this lab, we want you to design interaction with a speech-enabled device--som
 
 We will focus on **audio** as the main modality for interaction to start; these general techniques can be extended to **video**, **haptics** or other interactive mechanisms in the second part of the Lab.
 
-## Prep for Part 1: Get the Latest Content and Pick up Additional Parts 
+## Prep for Part 1: Get the Latest Content and Pick up Additional Parts - Complete
 
 ### Pick up Additional Parts
 
@@ -55,6 +55,8 @@ You can also play audio files directly with `aplay filename`. Try typing `aplay 
 
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
+
+The file kristjan.sh makes the PI say my name.
 
 Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 

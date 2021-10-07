@@ -143,8 +143,30 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+
+I received two comments on Canvas:
+
+Joseph Cera:
+
+I love that you can now edit your notes as if you typed them, so you can make correctionis or otherwise. Onne thing I'd love to see is note bot putting reminders directly in your calendar if you provided a deadline. Grat job!
+ 
+Angelca Kosasih:
+
+Hey Kristjan! Good call on starting with problems you face in your everyday when ideating.
+
+I wish there was more back and forth between the device and the user. For example, when the user asks for more eggs, it could ask the user when they need it by, when it should remind the user, let the user know of other items that they might need to buy soon as well, etc.
+
+I am also curious to know what form factor the device will be in? Will this be linked to one's siri/alexa/etc.
+
+I agree on using sound as a primary interactiionin technique to signal to the user the state of the device. Of course, though I wish there were more diaalouge, you may choose to build one that listens but minimally speaks. I think this opes up a lot of design challenges that you could explore!
+ 
+ 
+ I was happy to receive such detailed comments. I notice that the commennts from Angelica suggest similar changes as I had considered after watching the video: to incease the feedback from the device - make it more interactive. As ths problem has been pointed out by myself and other people now, it will be my priority to improve the interaction between the user and the device for the second part. 
+ 
+ Moreover, it was interesting to hear from Joseph that he liked that the notes were displayed in a format as if the user typed them in so they werte easily editable. This was not intentionnal, I simply used Google drive to wizard the device because the documents are updated live and I could control the text from another computer. However, this is a nice observation and I will try to keep this format and make sure the notes are easily editable.
+
+3. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+4. Make a new storyboard, diagram and/or script based on these reflections.
 
 ## Prototype your system
 

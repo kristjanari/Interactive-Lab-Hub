@@ -165,6 +165,8 @@ I was happy to receive such detailed comments. I notice that the commennts from 
  
 Moreover, it was interesting to hear from Joseph that he liked that the notes were displayed in a format as if the user typed them in so they werte easily editable. This was not intentionnal, I simply used Google drive to wizard the device because the documents are updated live and I could control the text from another computer. However, this is a nice observation and I will try to keep this format and make sure the notes are easily editable.
 
+For Angelica's comments about the form of the device I had a short discussion with the people at my table in the lab. We came to the coclusiion the most convenient costume would be a small earpiece. The devce is then always in reach.
+
 ### 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 As Joseph mentioned it would be convenient to be able to edit the notes afterwards. This could be implemented through the webpage I intended to display the notes in. Aother interaction possible is touch. Ideally, the interaction is voice instantiated but that might not always work - e.g. in a loud place. Hence, the device could include a button to initialise commuication (different methods on pressing butto could also have meaning - e.g. double tap to delete previous note).
 

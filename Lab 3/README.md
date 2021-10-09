@@ -115,6 +115,13 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+### Prototype video
+https://youtu.be/x8XFX6MnAkI
+
+When the system is tured on (when the script butto.py is run) the device waits for the user to press the button. The user can press the button to give the device voice commads. After listening to the user's input the device uploads the task to a online dashboard. The device then offers further assistance whch the user can deny or accept (oly available to dey in prototype).
+
+All the code for the prototype is available in the folder Lab 3/prototype. The file butto.py simple waits for a button press, whe the butto. is pressed it runs a script that takes care of all voice commads. That said script then sends the results to the online dashboard by running server.py.
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 

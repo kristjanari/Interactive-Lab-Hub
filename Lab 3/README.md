@@ -132,13 +132,6 @@ All the code for the prototype is available in the folder Lab 3/prototype. The f
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Answer the following:
-
-### What worked well about the system and what didn't?
-
-### What worked well about the controller and what didn't?
-
-These two questions are discussed below where the users tests are examined individually.
 
 #### User test 1
 https://youtu.be/dvVkK6DXvOU
@@ -159,10 +152,17 @@ https://youtu.be/aNKH_dKQFMA
 
 In he new prototype the device allows the user to list multiple ttasks in one go. This time, it stops recording tasks if it does not recognise the user's command instead of going on forever until he says "no". (In the video video the devce does not list all tasks exactly as I told iit to, this is because of the limis of the speechtotext library of the prototype.)
 
+### What worked well about the system and what didn't?
+
+As discussed here above the users found thee device easy to understand and use. They also enjoyed seeing the results on their own devices. The main issues were related to listing multiple tasks in one go. However, that process greatly improved throoughout the developement process as explained above.
+
+### What worked well about the controller and what didn't?
+
+The users found the button easy to understand. They liked being able to control the device by voce commands. On the other hand, the voice controller was the part that caused tthe most trouble. The device sometimes had trouble understanding what the users said and the limited vocabulary was hindering. Overall, the controllers' was acceptable and I was able to prototype a relatively realistic prototype with them. For the device to becomereally usable though, the quality of the voice controller must be improved.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\**your answer here*\*\*
+As discussed above the device had some trouble allowing users to lst many tasks in a row. After the WoZ interactions I believe the device has improved, but fort it to become autonomous I would have to master this process. That is, the users could promt the device at any time and list as may tasks as they desire.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?

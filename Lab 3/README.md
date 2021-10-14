@@ -7,85 +7,16 @@ We will focus on **audio** as the main modality for interaction to start; these 
 
 ## Prep for Part 1: Get the Latest Content and Pick up Additional Parts - Complete
 
-### Pick up Additional Parts
-
-As mentioned during the class, we ordered additional mini microphone for Lab 3. Also, a new part that has finally arrived is encoder! Please remember to pick them up from the TA.
-
-### Get the Latest Content
-
-As always, pull updates from the class Interactive-Lab-Hub to both your Pi and your own GitHub repo. As we discussed in the class, there are 2 ways you can do so:
-
-**\[recommended\]**Option 1: On the Pi, `cd` to your `Interactive-Lab-Hub`, pull the updates from upstream (class lab-hub) and push the updates back to your own GitHub repo. You will need the *personal access token* for this.
-
-```
-pi@ixe00:~$ cd Interactive-Lab-Hub
-pi@ixe00:~/Interactive-Lab-Hub $ git pull upstream Fall2021
-pi@ixe00:~/Interactive-Lab-Hub $ git add .
-pi@ixe00:~/Interactive-Lab-Hub $ git commit -m "get lab3 updates"
-pi@ixe00:~/Interactive-Lab-Hub $ git push
-```
-
-Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
-
 ## Part 1.
 ### Text to Speech 
 
-In this part of lab, we are going to start peeking into the world of audio on your Pi! 
-
-We will be using a USB microphone, and the speaker on your webcamera. (Originally we intended to use the microphone on the web camera, but it does not seem to work on Linux.) In the home directory of your Pi, there is a folder called `text2speech` containing several shell scripts. `cd` to the folder and list out all the files by `ls`:
-
-```
-pi@ixe00:~/text2speech $ ls
-Download        festival_demo.sh  GoogleTTS_demo.sh  pico2text_demo.sh
-espeak_demo.sh  flite_demo.sh     lookdave.wav
-```
-
-You can run these shell files by typing `./filename`, for example, typing `./espeak_demo.sh` and see what happens. Take some time to look at each script and see how it works. You can see a script by typing `cat filename`. For instance:
-
-```
-pi@ixe00:~/text2speech $ cat festival_demo.sh 
-#from: https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)#Festival_Text_to_Speech
-
-echo "Just what do you think you're doing, Dave?" | festival --tts
-```
-
-Now, you might wonder what exactly is a `.sh` file? Typically, a `.sh` file is a shell script which you can execute in a terminal. The example files we offer here are for you to figure out the ways to play with audio on your Pi!
-
-You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
-
-\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-(This shell file should be saved to your own repo for this lab.)
-
-### My script
-
 The file kristjan.sh makes the PI say my name.
-
-Bonus: If this topic is very exciting to you, you can try out this new TTS system we recently learned about: https://github.com/rhasspy/larynx
 
 ### Speech to Text
 
-Now examine the `speech2text` folder. We are using a speech recognition engine, [Vosk](https://alphacephei.com/vosk/), which is made by researchers at Carnegie Mellon University. Vosk is amazing because it is an offline speech recognition engine; that is, all the processing for the speech recognition is happening onboard the Raspberry Pi. 
-
-In particular, look at `test_words.py` and make sure you understand how the vocab is defined. Then try `./vosk_demo_mic.sh`
-
-One thing you might need to pay attention to is the audio input setting of Pi. Since you are plugging the USB cable of your webcam to your Pi at the same time to act as speaker, the default input might be set to the webcam microphone, which will not be working for recording.
-
-\*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
-
-### My script
-
 The file speech.sh (in speechtotext folder) asks the user for his phone number. Then the program reads the phone number back to the user and asks for confirmation and reacts appropriately.
 
-Bonus Activity:
 
-If you are really excited about Speech to Text, you can try out [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) and [voice2json](http://voice2json.org/install.html)
-There is an included [dspeech](./dspeech) demo  on the Pi. If you're interested in trying it out, we suggest you create a seperarate virutal environment for it . Create a new Python virtual environment by typing the following commands.
-
-```
-pi@ixe00:~ $ virtualenv dspeechexercise
-pi@ixe00:~ $ source dspeechexercise/bin/activate
-(dspeechexercise) pi@ixe00:~ $ 
-```
 
 ### Serving Pages
 
@@ -121,13 +52,10 @@ I tried to think of things that hve annoyed me in my daily life for the past few
 
 ### Acting out the dialogue
 
-Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 Video of the interaction
 
 https://youtu.be/F6JDfjIexfM
-
-\*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
 Before I acted out the dialog I did not see the need for an audio feedback from the device. After watching it however, I realise that the user is unaware if the note was successful if the device is silent. Hence, I'm going to add audio feedback to the dialog in the next part.
 
@@ -142,9 +70,39 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+### 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+#### I received two comments on Canvas:
+
+Joseph Cera:
+
+I love that you can now edit your notes as if you typed them, so you can make correctionis or otherwise. Onne thing I'd love to see is note bot putting reminders directly in your calendar if you provided a deadline. Grat job!
+ 
+Angelca Kosasih:
+
+Hey Kristjan! Good call on starting with problems you face in your everyday when ideating.
+
+I wish there was more back and forth between the device and the user. For example, when the user asks for more eggs, it could ask the user when they need it by, when it should remind the user, let the user know of other items that they might need to buy soon as well, etc.
+
+I am also curious to know what form factor the device will be in? Will this be linked to one's siri/alexa/etc.
+
+I agree on using sound as a primary interactiionin technique to signal to the user the state of the device. Of course, though I wish there were more diaalouge, you may choose to build one that listens but minimally speaks. I think this opes up a lot of design challenges that you could explore!
+ 
+#### Summary of feedback
+I was happy to receive such detailed comments. I notice that the commennts from Angelica suggest similar changes as I had considered after watching the video: to incease the feedback from the device - make it more interactive. As ths problem has been pointed out by myself and other people now, it will be my priority to improve the interaction between the user and the device for the second part. 
+ 
+Moreover, it was interesting to hear from Joseph that he liked that the notes were displayed in a format as if the user typed them in so they werte easily editable. This was not intentionnal, I simply used Google drive to wizard the device because the documents are updated live and I could control the text from another computer. However, this is a nice observation and I will try to keep this format and make sure the notes are easily editable.
+
+For Angelica's comments about the form of the device I had a short discussion with the people at my table in the lab. We came to the coclusiion the most convenient costume would be a small earpiece. The devce is then always in reach.
+
+### 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+As Joseph mentioned it would be convenient to be able to edit the notes afterwards. This could be implemented through the webpage I intended to display the notes in. Aother interaction possible is touch. Ideally, the interaction is voice instantiated but that might not always work - e.g. in a loud place. Hence, the device could include a button to initialise commuication (different methods on pressing butto could also have meaning - e.g. double tap to delete previous note).
+
+### 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+<img width="794" alt="image" src="https://user-images.githubusercontent.com/42963791/136639406-7a561a86-d28a-4d44-b20e-176e60239856.png">
+
+In the new and imprroved device the communication is more interactive. The device answers the user ad suggests more actions instead of just being silent as before. As explained in the storyboard the feedback from the device is not only to cofirm that the message was received, the device also suggests more actions which leads to the user comig up with a new task. I the final scene, the user is completing the laundry task at the set time and his roommate arrives with the laundry detergent he saw at the shared shopping list.
 
 ## Prototype your system
 
@@ -156,6 +114,13 @@ The system should:
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
+
+### Prototype video
+https://youtu.be/x8XFX6MnAkI
+
+When the system is tured on (when the script butto.py is run) the device waits for the user to press the button. The user can press the button to give the device voice commads. After listening to the user's input the device uploads the task to a online dashboard. The device then offers further assistance whch the user can deny or accept (oly available to dey in prototype).
+
+All the code for the prototype is available in the folder Lab 3/prototype. The file butto.py simple waits for a button press, whe the butto. is pressed it runs a script that takes care of all voice commads. That said script then sends the results to the online dashboard by running server.py.
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)

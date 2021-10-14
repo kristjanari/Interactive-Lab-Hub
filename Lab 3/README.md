@@ -96,7 +96,7 @@ Moreover, it was interesting to hear from Joseph that he liked that the notes we
 For Angelica's comments about the form of the device I had a short discussion with the people at my table in the lab. We came to the coclusiion the most convenient costume would be a small earpiece. The devce is then always in reach.
 
 ### 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-As Joseph mentioned it would be convenient to be able to edit the notes afterwards. This could be implemented through the webpage I intended to display the notes in. Aother interaction possible is touch. Ideally, the interaction is voice instantiated but that might not always work - e.g. in a loud place. Hence, the device could include a button to initialise commuication (different methods on pressing butto could also have meaning - e.g. double tap to delete previous note).
+As Joseph mentioned it would be convenient to be able to edit the notes afterwards. This could be implemented through the webpage I intended to display the notes in. Another interaction possible is touch. Ideally, the interaction is voice instantiated but that might not always work - e.g. in a loud place. Hence, the device could include a button to initialise communication (different methods on pressing button could also have meaning - e.g. double tap to delete previous note).
 
 ### 3. Make a new storyboard, diagram and/or script based on these reflections.
 
@@ -115,12 +115,19 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+#### Prototype design
+
+To prototype the earpeace design I taped the button to initialize voice commands to an AirPod. I then used the longest cable I found to connect the button to the raspberry pi to minimise the effect the computer had on the user's experience. The device would ideally only be the earpeace and hence I tried to prototype it in similar fashion.
+
+<img width="543" alt="image" src="https://user-images.githubusercontent.com/42963791/137237140-61bbf947-427c-4573-82a2-f9531a526121.png">
+
+
 ### Prototype video
 https://youtu.be/x8XFX6MnAkI
 
-When the system is tured on (when the script butto.py is run) the device waits for the user to press the button. The user can press the button to give the device voice commads. After listening to the user's input the device uploads the task to a online dashboard. The device then offers further assistance whch the user can deny or accept (oly available to dey in prototype).
+When the system is turned on (when the script butto.py is run) the device waits for the user to press the button. The user can press the button to give the device voice commads. After listening to the user's input the device uploads the task to a online dashboard. The device then offers further assistance whch the user can deny or accept (only available to deny in prototype).
 
-All the code for the prototype is available in the folder Lab 3/prototype. The file butto.py simple waits for a button press, whe the butto. is pressed it runs a script that takes care of all voice commads. That said script then sends the results to the online dashboard by running server.py.
+All the code for the prototype is available in the folder Lab 3/prototype. The file butto.py simple waits for a button press, when the button is pressed it runs a script that takes care of all voice commads. That said script then sends the results to the online dashboard by running server.py.
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -128,11 +135,30 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
 
 ### What worked well about the controller and what didn't?
 
-\*\**your answer here*\*\*
+These two questions are discussed below where the users tests are examined individually.
+
+#### User test 1
+https://youtu.be/dvVkK6DXvOU
+
+The first user test with the prototype was relatively successful. I told this user that there were only certain words which the device recognises. He was happy with the design (earpeace) and had little trouble interacting with the device. However, after the video the user asked if he could only list one task to the dashboard durinig each run. When I told him that was the casse he mentioned that this was a big issue for the usability. After hearing this feed back, I decided to improve the prototype for the next iterview. 
+
+In the new version, the device listens to user commands until he denies further assistance. Only then it posts the commands to the online dashboard. This way, users can create multiple tasks at once. 
+
+#### User test 2
+https://youtu.be/HUyZQz6qpi8
+
+The later user test was on the improved prototype. This time,  dd not tell the user that the vocabulary which the device understands is limited. The user's communitcation with the device was relatively smooth apart from one problem. In the new prototype, the user has to say "no" to the device when asked for further input. Then, the device stops taking voice commands and uploads them to the dashboard. However, the device did not recognize the word "no" until after a few rounds. This was confusing for the user as the device kept prompting him for more input no matter what he did. To fix this I am adding more words that indicate denial and I will also interpretet onkwon inout as "no" (the user can always press the button again if he wanted to list more tasks). The user liked these suggestionis of improvements.
+
+In general though, the user was impressed that the device recognised some of his tasks and displayed them on a dashboard he could access on his own phone (even though the vocabulary was limited he used some of the registered words, e.g 'homework').
+
+#### Improved prototype video
+https://youtu.be/aNKH_dKQFMA
+
+In he new prototype the device allows the user to list multiple ttasks in one go. This time, it stops recording tasks if it does not recognise the user's command instead of going on forever until he says "no". (In the video video the devce does not list all tasks exactly as I told iit to, this is because of the limis of the speechtotext library of the prototype.)
+
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

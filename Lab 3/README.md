@@ -132,6 +132,14 @@ All the code for the prototype is available in the folder Lab 3/prototype. The f
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+Answer the following:
+
+### What worked well about the system and what didn't?
+
+### What worked well about the controller and what didn't?
+
+These two questions are discussed below where the users tests are examined individually.
+
 #### User test 1
 https://youtu.be/dvVkK6DXvOU
 
@@ -146,15 +154,11 @@ The later user test was on the improved prototype. This time,  dd not tell the u
 
 In general though, the user was impressed that the device recognised some of his tasks and displayed them on a dashboard he could access on his own phone (even though the vocabulary was limited he used some of the registered words, e.g 'homework').
 
+#### Improved prototype video
+https://youtu.be/aNKH_dKQFMA
 
-Answer the following:
+In he new prototype the device allows the user to list multiple ttasks in one go. This time, it stops recording tasks if it does not recognise the user's command instead of going on forever until he says "no". (In the video video the devce does not list all tasks exactly as I told iit to, this is because of the limis of the speechtotext library of the prototype.)
 
-### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
-
-### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

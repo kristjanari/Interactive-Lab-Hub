@@ -33,7 +33,7 @@ print(resss)
 res = json.loads(resss)
 print(res)
 resp = res["text"]
-if resp == "no":
+if resp == "no" or resp == "oh" or resp == "[unk]":
     f = open("respond.txt", "w")
     f.write(resp)
     f.close()

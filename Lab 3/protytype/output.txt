@@ -1,0 +1,10 @@
+buy laundryeggs
+do laundry
+two eggs
+buy eggs
+buy eggs
+buy yogurt
+do homework
+[unk]
+do buy oh oh homework
+oh

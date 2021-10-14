@@ -1,0 +1,24 @@
+<!doctype html>
+<title>Notebuddy</title>
+
+<style>
+div {margin-left: auto; margin-right: auto}
+.blah {display: flex; justify-content: center}
+</style>
+
+<body>
+<div class="blah">
+<div>
+<h1>To-do list</h1>
+{% if notes %}
+  <ul>
+  {% for item in notes %}
+    <li> {{ item }} </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  <p>No notes to display!</p>
+{% endif %}
+</div>
+</div>
+</body>

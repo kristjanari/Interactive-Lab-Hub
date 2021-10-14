@@ -167,5 +167,5 @@ As discussed above the device had some trouble allowing users to lst many tasks 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\**your answer here*\*\*
+I could storre the words/tasks that different users say. Then I can analyze which ones are more common and others to improve the device's ability to listen to tasks. It could favour popular words over others when there is noise in input. Other sensing modalities the device could capture are e.g. movement and locatiion. When the person is at the grocery store the device could f.x. remind them of their shopping list.
 

@@ -239,7 +239,7 @@ The first question we thought of related to this device was how to organise the 
 
 #### Fruit Hero
 
-
+The biggest question for this device is how to display which fruit to touch next. The fruits will be connected to some control device that controls the game. The device needs some monitor to display this data and it should have a speaker to play the music. Ideally, it contains a camera to take pictures of users while they play the game. The device must include all these sensors, displays and wires and a perfect tool to decide on the design is prototyping it with carboard. We can move the different sensors around and see which design delivers the best user experience. 
 
 #### Kitchen for Special Needs
 

@@ -228,11 +228,36 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+<img width="276" alt="Screen Shot 2021-10-17 at 11 04 02 PM" src="https://user-images.githubusercontent.com/52221419/137662927-bf0c4af7-825d-47dd-a9d2-6b0efe68af11.png">
+
+<img width="286" alt="Screen Shot 2021-10-17 at 11 04 09 PM" src="https://user-images.githubusercontent.com/52221419/137662939-b8a30cc6-bd4f-4bb6-b002-8c8d54937b30.png">
+
+<img width="285" alt="Screen Shot 2021-10-17 at 11 04 20 PM" src="https://user-images.githubusercontent.com/52221419/137662952-b4874a71-8624-446c-af74-bfa0d1fc06d8.png">
+
+<img width="307" alt="Screen Shot 2021-10-17 at 11 04 26 PM" src="https://user-images.githubusercontent.com/52221419/137662960-b847eec0-56a6-4d6e-83b0-dc30a58c669b.png">
+
+<img width="283" alt="Screen Shot 2021-10-17 at 11 04 33 PM" src="https://user-images.githubusercontent.com/52221419/137662968-15787519-9983-472e-8d97-9d80e3a0de6e.png">
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+Here were the main questions we had with these sketches:
+- How much leeway do we want the cables to have with the fruits and vegetables?
+- Do we went to look down at the game or look across at it?
+- Should the game be played standing up or sitting down? 
+- Which screen should we use to show the color to press - the Adafruit PiTFT or the external corded monitor?
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+We decided on **Design 2.**
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+We chose design 2 for a number of reasons:
+- By putting the cables to the fruits and vegetables at the front of the box, we are able to have more length between the box and the fruits, allowing for more user customization of how to play. 
+- We did not want to use design 5 as it required the user to stand up while playing, and we figured to play games on a keyboard it would be better to play sitting down. 
+- With the camera on the front, we realized this would create balance based issues - since it would be protruding out the front, it would weigh down the box and it would fall forward. However, with design 2, by having the camera on top it was held down by gravity and actually kind of helped holding the box in the right angle.
+- We wanted to initially use the ADAfruit PiTFT as our monitor for simplicity, as shown in design 4. However, this caused it to be too small to see and created design issues within the interior of the box. By using the external screen connected by a cable, it is more flexible to place both the screen and organize the interior of the box. It also allowed us to put the cables to the fruits and vegetables as the front of the box, which we found ideal, as described in the first bullet point.  
 
 Build a cardbord prototype of your design.
 

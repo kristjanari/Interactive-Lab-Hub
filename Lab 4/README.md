@@ -221,13 +221,37 @@ This device is for people with disabilities (especially those who struggle with 
 <img width="715" alt="image" src="https://user-images.githubusercontent.com/42963791/137664574-5afc9094-311c-49ef-8891-3958b0fff73d.png">
 
 #### Touch Based Calculator
-<img width="894" alt="image" src="https://user-images.githubusercontent.com/42963791/137666067-b9491550-ba2b-44e1-bc22-2ee4b3a513a0.png">
 
+The pi-calc operates simply by taking binary input, and then applying basic operations such as add, subtract, multiply, and divide. You press each of the “0”/“1” keys, and they show up on the screen. Then you can press the operations, and input more binary digits. Finally, if you press the equate button, it will calculate your answer. 
+
+<img width="894" alt="image" src="https://user-images.githubusercontent.com/42963791/137666067-b9491550-ba2b-44e1-bc22-2ee4b3a513a0.png">
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+#### Alarm System
+
+
+
+#### Item Piano
+
+
+
+#### Fruit Hero
+
+
+
+#### Kitchen for Special Needs
+
+
+
+#### Touch Based Calculator
+
+One of the first questions we had was how we would create a calculator, however, we realized that since the touch capacitor only had 12 inputs, that would only leave room for one operation and a compute button. So, we decided to utilize a binary calculator to have more operations available. This would also simply the code as binary is natively understood by the Pi. We would also have to consider the placement of the buttons, so they would be intuitively placed. Another question was what material would be best used for the “keys” of the calculator. We figured something like aluminum foil would be an effective key, as it is known to be a conductor of electricity and is easily moldable and flat. We could also write on it effectively. Lastly, we wondered what would be the best way to limit the digits so they would fit on the screen, and so that the result would similarly fit on the screen. 
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+We decided on **Fruit Hero** as our design to prototype. 
 
 
 ### Part D

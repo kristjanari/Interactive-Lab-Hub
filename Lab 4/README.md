@@ -183,6 +183,11 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+
+### Sensor
+
+Afer trying out all of the sensors we chose to use the capacitive sensor. We had the most fun playing around with that sensor and saw some exciting opportunities.
+
 #### Alarm System
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/42963791/137664459-d2cdda1e-ea3e-41b6-8ee5-9b8fe21da699.png">
 

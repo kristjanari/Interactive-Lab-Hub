@@ -94,6 +94,10 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
+#### Testing out the capacitive sensor
+
+https://youtu.be/w_GNMGVBeIA
+
 ### Part B
 ### More sensors
 
@@ -115,6 +119,8 @@ Connect it to your pi with Qwiic connector and try running the 3 example scripts
 ```
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
+
+#### Testing out the capacitive sensor
 
 #### Rotary Encoder
 
@@ -229,6 +235,10 @@ Think about how you want to present the information about what your sensor is se
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
+
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/42963791/137662957-0c0d1bd6-7381-4b38-95ad-6b03ef84e118.png">
+
+https://youtu.be/7MgRAdgzGWg
 
 
 LAB PART 2

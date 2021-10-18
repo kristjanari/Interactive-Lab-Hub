@@ -231,11 +231,11 @@ The pi-calc operates simply by taking binary input, and then applying basic oper
 
 #### Alarm System
 
-
+The main question of this device is wheater the surface will detect if a conducting object that is placed on it is touched. To answer this question we would have to try out different materials for the surface and see which ones gives the best reaction. Another question that arises is how to allow the user to get the item without setting off the alarm. Prototyping would help solve this issue by testing out different ways to turn off the sensor without triggering the alarm by touching the surface. The user could e.g. have access to a keypad to unlock the device (turn off the sensor).
 
 #### Item Piano
 
-
+The first question we thought of related to this device was how to organise the items (notes) of the piano. This could be done in a similar manner to a regular piano which could easily be prototyped with cardboard. Ideally, the user only sees the items and not the wires and the items would be approximately 1m above the ground. This would require a lot of cardboard but would be very helpful in designing the layout of the items.
 
 #### Fruit Hero
 

@@ -120,7 +120,9 @@ Connect it to your pi with Qwiic connector and try running the 3 example scripts
 
 You can go the the [Adafruit GitHub Page](https://github.com/adafruit/Adafruit_CircuitPython_APDS9960) to see more examples for this sensor!
 
-#### Testing out the capacitive sensor
+#### Testing out the proximity sensor
+
+https://youtu.be/enST2dVSKes
 
 #### Rotary Encoder
 
@@ -140,6 +142,8 @@ Connect it to your pi with Qwiic connector and try running the example script, i
 
 You can go to the [Adafruit Learn Page](https://learn.adafruit.com/adafruit-i2c-qt-rotary-encoder/python-circuitpython) to learn more about the sensor! The sensor actually comes with an LED (neo pixel): Can you try lighting it up?
 
+#### Testing out the Rotary sensor
+
 https://youtu.be/GbnVW8G-lCs
 
 #### Joystick
@@ -157,6 +161,10 @@ Connect it to your pi with Qwiic connector and try running the example script to
 ```
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Joystick_Py) to learn more about the sensor!
+
+#### Testing out the Joystick
+
+https://youtu.be/Ysw0t7rFopQ
 
 #### (Optional) Distance Sensor
 
@@ -186,19 +194,35 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 ### Sensor
 
-Afer trying out all of the sensors we chose to use the capacitive sensor. We had the most fun playing around with that sensor and saw some exciting opportunities.
+Afer trying out all of the sensors we chose to use the capacitive sensor. We had the most fun playing around with that sensor and saw some exciting opportunities. The favorites are listed below.
 
 #### Alarm System
+
+This device is designed to protect valuable metals, such as jewelry. The user can place a valuable item on the device and put it on lock mode. If an intruder touches the object that shall not be touched an alarm goes off. The object must be conductive. The surface would be made of conductive material and connected to the capacitive sensor.
+
 <img width="709" alt="image" src="https://user-images.githubusercontent.com/42963791/137664459-d2cdda1e-ea3e-41b6-8ee5-9b8fe21da699.png">
 
 #### Item Piano
+
+This device plays different sounds when various items are touched. It can play up to 12 notes and the notes could e.g. be made of bananas. Each banana/note would be connected to the capacitive sensor and a different pitch is played for each one of them on touch.
+
 <img width="719" alt="image" src="https://user-images.githubusercontent.com/42963791/137664476-4120e74e-e764-4ccf-9e08-0a69cd3f693a.png">
 
 #### Fruit Hero
+
+This device is a game that is similar to guitar hero. The device displays a color on the screen and the user is supposed to touch the fruit of that color. The display is in tune with a song and the user gets points for each correct touch. 
+
 <img width="797" alt="image" src="https://user-images.githubusercontent.com/42963791/137664533-a289046a-0b43-4860-9d8d-7a3ac3e00ec2.png">
 
 #### Kitchen for Special Needs
+
+This device is for people with disabilities (especially those who struggle with using force) to use in the kitchen. It is connected to various devices in the kitchen (fridge, oven, microwave, etc.) and can open each device on touch. So, to open the fridge for example, one could simply touch the front door.
+
 <img width="715" alt="image" src="https://user-images.githubusercontent.com/42963791/137664574-5afc9094-311c-49ef-8891-3958b0fff73d.png">
+
+#### Touch Based Calculator
+<img width="894" alt="image" src="https://user-images.githubusercontent.com/42963791/137666067-b9491550-ba2b-44e1-bc22-2ee4b3a513a0.png">
+
 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***

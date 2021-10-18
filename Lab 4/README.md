@@ -317,6 +317,8 @@ Here were the main questions we had with these sketches:
 
 We decided on **Design 2.**
 
+We beleived it would be realistic to create a functional prototpy of that device and that the device would be rather entertaining.
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 We chose design 2 for a number of reasons:
@@ -329,7 +331,13 @@ Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+### The Cardboard Prototype
+
+The prototype is displayed below. The screen on the bow displays the next fruit to touch and the speacker on the camera plays the music. The raspberyy pi is inside the box as well as all the wires.
+
 <img width="552" alt="image" src="https://user-images.githubusercontent.com/42963791/137662957-0c0d1bd6-7381-4b38-95ad-6b03ef84e118.png">
+
+The video below shows the internal structure of the device, there is a special compartment for the raspberry pi and the vires and sensors are properly mounted with tape and glue.
 
 https://youtu.be/7MgRAdgzGWg
 

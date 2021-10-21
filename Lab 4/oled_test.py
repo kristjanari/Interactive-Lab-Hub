@@ -8,6 +8,8 @@ import time
 import adafruit_ssd1306
 import adafruit_mpr121
 
+from PIL import Image, ImageDraw, ImageFont
+
 
 
 # Create the I2C interface.
@@ -40,19 +42,43 @@ sensors = [0, 11, 7, 2]
 
 score = 0
 
+# Load a font in 2 different sizes.
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 28)
+font2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+
 while True:
 
     index = random.randint(0, 3)
-    oled.text(colors[index], 0, 10, 1)
-    oled.text(str(score), 20, 10, 1)
-    oled.show()
+    image = Image.new("1", (oled.width, oled.height))
 
+    draw = ImageDraw.Draw(image)
+    oled.fill(0)
+    draw.text((0, 0), colors[index], font=font2, fill=255)
+    draw.text((96, 0), str(score), font=font2, fill=255)
+    oled.image(image)
+    oled.show()
+    
+    message = "NICE JOB! :D"
     print(colors[index])
     t_end = time.time() + 5
+    incorrect = True
     while time.time() < t_end:
-        print("well hello")
         if mpr121[sensors[index]].value:
             print(f"Twizzler {index} touched!")
             score += 1
-    time.sleep(random.randint(0,5))  # Small delay to keep from spamming output messages.
+            incorrect = False
+            break
+    if incorrect:
+        score -= 1
+        message = "TOO BAD :("
+
+    image = Image.new("1", (oled.width, oled.height))
+
+    draw = ImageDraw.Draw(image)
+    oled.fill(0)
+    draw.text((0, 0), message, font=font2, fill=255)
+    draw.text((96, 0), str(score), font=font2, fill=255)
+    oled.image(image)
+    oled.show()
+    time.sleep(random.randint(2,5))  # Small delay to keep from spamming output messages.
     

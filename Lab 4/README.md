@@ -361,7 +361,7 @@ I really like your idea of making a game! I think the game will be fun. I think 
 
 #### Summarized Comments: 
 - One of the comments we received noted we have no to reset and start the game, which is an important thing to think about. We will add this to our prototype. 
-- We also were told to incorporate different modes of playing the game or perhaps add more songs which the player can switch through. 
+- We also were told to incorporate different modes of playing the game or perhaps add more songs which the player can switch through. This will be implemented with the joystick if we have spare time.
 
 ### Part E (Optional)
 ### Servo Control with Joystick

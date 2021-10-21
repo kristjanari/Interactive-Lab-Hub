@@ -356,6 +356,13 @@ I think Fruit Hero is definitely a fun idea! The idea of tapping the fruit accor
 #### Rebecca Lassmann:
 I love the creativity of the fruit hero game! The prototype looks great. A few questions: 1) the softer fruits like raspberries probably wont last so may make sense to swap out with an apple or other veggies. 2) Is there a way to cover the wires and clamps so the player doesn't disconnect them by accident? Same question for the speaker - curious if you tested a version where the speaker was inside of the device instead on on top to make it look like one single device and less likely for things to be taken apart,
 
+#### Jiacheng Peng
+I really like your idea of making a game! I think the game will be fun. I think some of the things you did not consider is that how to start and reset the game. Maybe add some feature to change the songs playing or different playing modes would be more fun. 
+
+#### Summarized Comments: 
+- One of the comments we received noted we have no to reset and start the game, which is an important thing to think about. We will add this to our prototype. 
+- We also were told to incorporate different modes of playing the game or perhaps add more songs which the player can switch through. 
+
 ### Part E (Optional)
 ### Servo Control with Joystick
 

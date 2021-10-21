@@ -348,6 +348,14 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+### Received feedback
+
+#### Angleica Kosach:
+I think Fruit Hero is definitely a fun idea! The idea of tapping the fruit according to the music is much more fun than just making it act as a piano, for example. Some other interesting ideas would be to display the fruit in a spatial structure instead of just laying it out on the floor, so the user can even get a workout in while playing the game. You can also introduce difficulty levels to the game by making higher levels require the use of feet as well.
+
+#### Rebecca Lassmann:
+I love the creativity of the fruit hero game! The prototype looks great. A few questions: 1) the softer fruits like raspberries probably wont last so may make sense to swap out with an apple or other veggies. 2) Is there a way to cover the wires and clamps so the player doesn't disconnect them by accident? Same question for the speaker - curious if you tested a version where the speaker was inside of the device instead on on top to make it look like one single device and less likely for things to be taken apart,
+
 ### Part E (Optional)
 ### Servo Control with Joystick
 

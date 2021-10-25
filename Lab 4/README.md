@@ -399,7 +399,7 @@ We encourage you to try using these controls, **while** paying particular attent
 
 #### Looks Like
 
-The final prototype was a interactive device that allows the user to play fruit hero. The prototype is displayed in the image below. 
+The final prototype was a interactive device that allows the user to play fruit hero. The prototype is displayed in the image below. The device sits on a table and is relatively easy to set up, the fruits are connected to the clips (any conductive material can be used). The device is light and portable and only needs power to run, so you can bring it to your friends house or to parties!
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/42963791/138754174-03604f66-6e0e-41ab-b0a9-2eb4d20a1aa8.png">
 

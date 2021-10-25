@@ -392,11 +392,26 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
+#### Servo control test
+
+We set up the servo control with our rasperry pi. The test run of the device is displayed below.
+
+https://youtu.be/QJMZyMzBpqg
+
 ### Part F
 ### Record
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+### The final prototype
+
+#### Looks Like
+
+The final prototype was a interactive device that allows the user to play fruit hero. The prototype is displayed in the image below. The device sits on a table and is relatively easy to set up, the fruits are connected to the clips (any conductive material can be used). The device is light and portable and only needs power to run, so you can bring it to your friends house or to parties!
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/42963791/138754174-03604f66-6e0e-41ab-b0a9-2eb4d20a1aa8.png">
+
+#### Works like and acts like
+
+The prototype's behaviour and interaction with users is explained in the following video.
+
+When turned on, the device provides information about how to start the game through audio and visual display. When the button is pressed the game starts and music is played. The display on the device indicates which fruit to touch next. The user has a few seconds to react and gains one point if he successfully toucches the correct fruit. If he fails to do it in a timely manner or touches the wrong fruit, a point is deducted. The goal of the game is to reach 15 points and when that is achieved the device gives a winning message through audio and visual display. The game can then be played again by pressing the green button.
 

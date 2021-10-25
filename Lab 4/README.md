@@ -392,6 +392,12 @@ You can then call whichever control you like rather than setting a fixed value f
 
 We encourage you to try using these controls, **while** paying particular attention to how the interaction changes depending on the position of the controls. For example, if you have your servo rotating a screen (or a piece of cardboard) from one position to another, what changes about the interaction if the control is on the same side of the screen, or the opposite side of the screen? Trying and retrying different configurations generally helps reveal what a design choice changes about the interaction -- _make sure to document what you tried_!
 
+#### Servo control test
+
+We set up the servo control with our rasperry pi. The test run of the device is displayed below.
+
+https://youtu.be/QJMZyMzBpqg
+
 ### Part F
 ### Record
 

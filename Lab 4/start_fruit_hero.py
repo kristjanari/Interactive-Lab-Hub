@@ -105,7 +105,7 @@ while True:
         oled.image(image)
         oled.show()
         time.sleep(random.randrange(1,2))  # Small delay to keep from spamming output messages.        
-        if score == 3:
+        if score == 15:
             score = 0
             image = Image.new("1", (oled.width, oled.height))
             draw = ImageDraw.Draw(image)

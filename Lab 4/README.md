@@ -405,11 +405,7 @@ The final prototype was a interactive device that allows the user to play fruit 
 
 #### Works like and acts like
 
-The prototype's behaviour and iinnteraction with users is explained in the following video.
+The prototype's behaviour and interaction with users is explained in the following video.
 
-
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+When turned on, the device provides information about how to start the game through audio and visual display. When the button is pressed the game starts and music is played. The display on the device indicates which fruit to touch next. The user has a few seconds to react and gains one point if he successfully toucches the correct fruit. If he fails to do it in a timely manner or touches the wrong fruit, a point is deducted. The goal of the game is to reach 15 points and when that is achieved the device gives a winning message through audio and visual display. The game can then be played again by pressing the green button.
 

@@ -395,6 +395,19 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Part F
 ### Record
 
+### The final prototype
+
+#### Looks Like
+
+The final prototype was a interactive device that allows the user to play fruit hero. The prototype is displayed in the image below. 
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/42963791/138754174-03604f66-6e0e-41ab-b0a9-2eb4d20a1aa8.png">
+
+#### Works like and acts like
+
+The prototype's behaviour and iinnteraction with users is explained in the following video.
+
+
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do

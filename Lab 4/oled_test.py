@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
 # SPDX-License-Identifier: MIT
-
+import os
 import board
 import random
 import busio
@@ -93,6 +93,7 @@ while True:
             draw = ImageDraw.Draw(image)
             oled.fill(0)
             draw.text((0, 0), "Congratulations! You win!", font=font2, fill=255)
+            os.system("./take_photo.sh")
             draw.text((0, 20), "Press button to play again.", font=font2, fill=255)
             oled.image(image)
             oled.show()

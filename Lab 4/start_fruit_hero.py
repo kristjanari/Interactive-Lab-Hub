@@ -31,13 +31,14 @@ oled.fill(0)
 # we just blanked the framebuffer. to push the framebuffer onto the display, we call show()
 oled.show()
 
-colors = ["Banana", "Apple", "Lime", "Orange"]
+colors = ["Banana", "Tomato", "Lime", "Orange"]
 sensors = [9, 7, 11, 0]
 score = 0
 
 # Load a font in 2 different sizes.
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 28)
 font2 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 14)
+font3 = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 10)
 
 def read_register(dev, register, n_bytes=1):
     # write a register number then read back the value
@@ -53,11 +54,18 @@ gameStarted = False
 # Yellow = Twizzler 9
 # Green = Twizzler 11
 
+image = Image.new("1", (oled.width, oled.height))
+draw = ImageDraw.Draw(image)
+oled.fill(0)
+draw.text((0, 0), "Press button to play!", font=font3, fill=255)
+oled.image(image)
+oled.show()
+os.system("./welcome.sh")
+
 while True:
     if gameStarted:
         index = random.randint(0, 3)
         image = Image.new("1", (oled.width, oled.height))
-
         draw = ImageDraw.Draw(image)
         oled.fill(0)
         draw.text((0, 0), colors[index], font=font2, fill=255)
@@ -75,6 +83,15 @@ while True:
                 score += 1
                 incorrect = False
                 break
+            else:
+                isbroken = False
+                for i in range(4):
+                    if i != index and  mpr121[sensors[i]].value:
+                        print('print boy')
+                        isbroken = True
+                        break
+                if isbroken:
+                    break
         if incorrect:
             score -= 1
             message = "TOO BAD :("
@@ -87,22 +104,22 @@ while True:
         draw.text((96, 0), str(score), font=font2, fill=255)
         oled.image(image)
         oled.show()
+        time.sleep(random.randrange(1,2))  # Small delay to keep from spamming output messages.        
         if score == 3:
             score = 0
             image = Image.new("1", (oled.width, oled.height))
             draw = ImageDraw.Draw(image)
             oled.fill(0)
-            draw.text((0, 0), "Congratulations! You win!", font=font2, fill=255)
-            os.system("./take_photo.sh")
-            draw.text((0, 20), "Press button to play again.", font=font2, fill=255)
+            draw.text((0, 0), "Congrats! You win!", font=font3, fill=255)
+            draw.text((0, 20), "Press to play again.", font=font3, fill=255)
             oled.image(image)
             oled.show()
+            os.system("./take_photo.sh")
             gameStarted = False 
-        time.sleep(random.randint(2,5))  # Small delay to keep from spamming output messages.        
     else:
         print('Waiting to start...')
         btn_status = read_register(buttonDevice, STATUS)
         if (btn_status & IS_PRESSED) !=0:
             print('game start!')
             gameStarted = True
-        time.sleep(.5)
+        time.sleep(.1)

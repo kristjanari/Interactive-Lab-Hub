@@ -106,6 +106,9 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 #### Face detection
 <img width="666" alt="image" src="https://user-images.githubusercontent.com/42963791/139278249-cd66e540-acdf-441a-b026-d293fb1716da.png">
 
+#### Flow detection
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/42963791/139279868-1b477655-a2e3-4ced-aeca-9e4d4306ef03.png">
+
 #### Object detection
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/42963791/139278029-5ed105da-0838-417c-aa0a-b07e61d548fc.png">
 

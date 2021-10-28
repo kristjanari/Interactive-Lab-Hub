@@ -100,8 +100,13 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+#### Contour detection
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/42963791/139276451-681f7873-aaed-4d7d-a1bc-db1aae559103.png">
 
+#### Face detection
+<img width="666" alt="image" src="https://user-images.githubusercontent.com/42963791/139278249-cd66e540-acdf-441a-b026-d293fb1716da.png">
+
+#### Object detection
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/42963791/139278029-5ed105da-0838-417c-aa0a-b07e61d548fc.png">
 
 

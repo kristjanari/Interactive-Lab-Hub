@@ -149,6 +149,10 @@ Try the two main features of this script: 1) pinching for percentage control, an
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
 
+### Had pose detection
+
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/42963791/139281950-4c601b0c-1fb8-4866-8894-fa26889f3356.png">
+
 (You might also consider how this notion of percentage control with hand tracking might be used in some of the physical UI you may have experimented with in the last lab, for instance in controlling a servo or rotary encoder.)
 
 

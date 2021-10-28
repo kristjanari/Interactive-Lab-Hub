@@ -102,6 +102,8 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/42963791/139276451-681f7873-aaed-4d7d-a1bc-db1aae559103.png">
 
+<img width="725" alt="image" src="https://user-images.githubusercontent.com/42963791/139278029-5ed105da-0838-417c-aa0a-b07e61d548fc.png">
+
 
 #### MediaPipe
 

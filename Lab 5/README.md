@@ -152,6 +152,7 @@ Each of the installs will take a while, please be patient. After successfully in
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
+
 There are plenty of interactions we could create using this position based approach. For example, we could use a variety of hand gestures to help control various settings on our computer. One way we could do this is by being able to make phone calls with gestures. First the user would make a phone gesture, i.e. the middle three fingers held in while the thumb and pinky fingers are held out, and then follow up with the number of fingers up for each digit in the number they want to call. This way, the user could make a phone call without having to say anything, and avoid pressing any buttons on their device. 
 
 #### Had pose detection

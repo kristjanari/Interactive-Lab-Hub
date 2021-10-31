@@ -201,22 +201,6 @@ https://youtu.be/7RJTa5-CEOs
 
 The great advantage TeachableMachines has over the other options is that we can train it for specific use. The other options have predetirmined functionality but the possibility of training our own model with TeachableMachine opens a lot of opportunities. We could for example train the classifier to see if a person is wearing pants or not. Occationally, I leave my apartment, e.g. to take out the trash, and forget that I am not wearing pants. The device could be at the door and warn the users if they are about to exit without pants. Such a personalized model is not possible with the other options.
 
-*Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
-
-
-#### Filtering, FFTs, and Time Series data. (optional)
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
-
-Using the accelerometer, try the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-**\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
-
 
 ### Part B
 ### Construct a simple interaction.

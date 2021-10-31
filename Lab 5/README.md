@@ -195,7 +195,11 @@ This might take a while to get fully installed. After installation, connect your
 
 #### Teachable Machine Test
 
+The video shows an interaction with TeachableMachines.
+
 https://youtu.be/7RJTa5-CEOs
+
+The great advantage TeachableMachines has over the other options is that we can train it for specific use. The other options have predetirmined functionality but the possibility of training our own model with TeachableMachine opens a lot of opportunities. We could for example train the classifier to see if a person is wearing pants or not. Occationally, I leave my apartment, e.g. to take out the trash, and forget that I am not wearing pants. The device could be at the door and warn the users if they are about to exit without pants. Such a personalized model is not possible with the other options.
 
 *Don't forget to run ```deactivate``` to end the Teachable Machines demo, and to reactivate with ```source tmachine/bin/activate``` when you want to use it again.*
 

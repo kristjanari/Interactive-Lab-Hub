@@ -102,15 +102,19 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 #### Contour detection
 <img width="685" alt="image" src="https://user-images.githubusercontent.com/42963791/139276451-681f7873-aaed-4d7d-a1bc-db1aae559103.png">
+There are plenty of application for contour detection. One popular design where it is commonly applied is in license plate detection, for use by law enforcement or toll tracking. Another good design that could be used might be checking products for imperfections. Products could range from consumer products like a laptop or perhaps a car, to structural renovations or builds. By taking a picture of the final product and comparing its contours to the contours on a perfect version of the  final product, (a concept car / auto cad model of the structure) you can identify if there is any spot with an imperfection. 
 
 #### Face detection
 <img width="666" alt="image" src="https://user-images.githubusercontent.com/42963791/139278249-cd66e540-acdf-441a-b026-d293fb1716da.png">
+Face detection is already used in many use cases, for example I use it every day in order to unlock my phone. One interesting use case could be to augment the common front door. By mounting a camera on the door and scanning for faces, this would help tell us whether or not a human may be at the door or perhaps an animal running by. It could also tell us if someone is just pranking us. 
 
 #### Flow detection
 <img width="656" alt="image" src="https://user-images.githubusercontent.com/42963791/139279868-1b477655-a2e3-4ced-aeca-9e4d4306ef03.png">
+Flow detection is another algorithm with plenty of use cases. The first that comes to mind would be usage in traffic situations, on a highway for example. You could detect whether people are driving in their lane and staying safe, or if they are perhaps swerving a bit identifying something might be wrong. This could be done by looking at how straight/constant the lines in the flow detection are, and whether they are following a certain axis. It could also be used to identify how fast cars are going for congestion detection, based on how fast the flow lines are growing. 
 
 #### Object detection
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/42963791/139278029-5ed105da-0838-417c-aa0a-b07e61d548fc.png">
+Object detection also has many potential applications. For one, object detection could be used to check if a loading bay of sorts has items in it. In a manufacturing environment, it might be of use to identify whether or not some area contains products, either intermediary or final output products. Object detection could also be helpful in automated cleaning services, being able to identify if there is an object out of place that needs to be cleaned up or moved elsewhere. These could both be done by identifying any objects and seeing if they match one of the expected items to be there, which may be no item at all. 
 
 
 #### MediaPipe
@@ -148,6 +152,7 @@ Each of the installs will take a while, please be patient. After successfully in
 Try the two main features of this script: 1) pinching for percentage control, and 2) "[Quiet Coyote](https://www.youtube.com/watch?v=qsKlNVpY7zg)" for instant percentage setting. Notice how this example uses hardcoded positions and relates those positions with a desired set of events, in `hand_pose.py` lines 48-53. 
 
 **\*\*\*Consider how you might use this position based approach to create an interaction, and write how you might use it on either face, hand or body pose tracking.\*\*\***
+There are plenty of interactions we could create using this position based approach. For example, we could use a variety of hand gestures to help control various settings on our computer. One way we could do this is by being able to make phone calls with gestures. First the user would make a phone gesture, i.e. the middle three fingers held in while the thumb and pinky fingers are held out, and then follow up with the number of fingers up for each digit in the number they want to call. This way, the user could make a phone call without having to say anything, and avoid pressing any buttons on their device. 
 
 #### Had pose detection
 

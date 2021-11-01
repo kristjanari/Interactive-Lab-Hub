@@ -232,25 +232,13 @@ For our experiment, our plan was to place all the objects in the box and see whe
 ### Part C
 ### Test the interaction prototype
 
-
-<img width="556" alt="image" src="https://user-images.githubusercontent.com/42963791/139606160-f761c643-1ec4-4fe1-917a-845f7881a07b.png">
-
-<img width="564" alt="image" src="https://user-images.githubusercontent.com/42963791/139606172-418da89d-fd09-4c55-a916-0be706620c03.png">
-
-<img width="547" alt="image" src="https://user-images.githubusercontent.com/42963791/139606177-6f32cea2-7525-4f78-a528-2a199b8b2bd4.png">
-
-
-
-<img width="559" alt="image" src="https://user-images.githubusercontent.com/42963791/139606525-c0d77d5a-05af-46c5-af98-f1357dc5b266.png">
-
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
 
-The device does what it is supposed to mostly when the objects are clearly set apart, and the camera has a good angle to view all of them:
+The device does what it is supposed to mostly when the objects are clearly set apart, and the camera has a good angle to view all of them, and not much motion was being applied to the camera at the time of detection:
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
-
 
 2. When does it fail?
 
@@ -262,8 +250,25 @@ The device failed fairly often. It took a while of positioning the camera at dif
 
 <img width="566" alt="image" src="https://user-images.githubusercontent.com/42963791/139606375-724a77e1-c7b7-41fa-baae-c08e3d9d54ce.png">
 
+The photos shown above all describe how the device failed to detect these objects in the box. We also found that it failed to detect the items when they were on top of each other. We figured this might be important, because in a manufacturing enviornment where items might be rolling off a conveyor belt and into the box, there is a high chance that these oobjects might land on top of each other. We found this made it difficult to detect the objects:
+
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/42963791/139606525-c0d77d5a-05af-46c5-af98-f1357dc5b266.png">
+
 3. When it fails, why does it fail?
+
+We did not move the objects while attempting to detect them, so we know it has nothing to do with the motion of the objects. This did not prove that motion of the camera causes detection issues, which is a likely suspect. We also thought maybe the system had trouble detecting the objects themselves, so we tried detecting each object on their own: 
+
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/42963791/139606160-f761c643-1ec4-4fe1-917a-845f7881a07b.png">
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/42963791/139606172-418da89d-fd09-4c55-a916-0be706620c03.png">
+
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/42963791/139606177-6f32cea2-7525-4f78-a528-2a199b8b2bd4.png">
+
+We found here that there were no issues with the detection of the objects on their own, rather with the ability to detect multiple objects together. 
+
 4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+There are plenty of reasons that could cause problems here. Some of these include the lighting of the room, shadows, or perhaps the color and material of the objects we are trying to detect. The contrast of the objects with their surroundings likely plays a role in this as well. 
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?

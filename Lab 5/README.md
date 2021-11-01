@@ -220,9 +220,11 @@ Try out different interaction outputs and inputs.
 For our interaction, we decided to use the object detection model. For a class of objects, we wanted to use common objects - an airpods case, a Cornell id card, and a usb to hdmi converter cord. We also used the brown raspberry pi box. Our interaction was going to be detecting that all the items were in fact inside the raspberry pi box. This could be used in manufacturing, as described above - to make sure that all items are prepped in a box and ready to be shipped somewhere. 
 
 Below is a picture of the box with nothing in it:
+
 <img width="529" alt="Screen Shot 2021-10-31 at 8 30 33 PM" src="https://user-images.githubusercontent.com/52221419/139606798-e93c7124-e41e-4994-906c-cbf9d78499fa.png">
 
 Here is a photo of the box with all the correct components in it: 
+
 <img width="522" alt="Screen Shot 2021-10-31 at 8 30 47 PM" src="https://user-images.githubusercontent.com/52221419/139606810-76fe8ade-baf4-4d7d-90ed-22b7afb61cc8.png">
 
 For our experiment, our plan was to place all the objects in the box and see whether or not the object detection would detect all three different objects. We used objects of different shapes and sizes (3d prism - airpods, flat planar card - Cornell ID, black cord - HDMI converter). We also used the card since it had reflective properties to it, as some products might have as well. The goal is to have all three objects detected in the box. We also wanted to see what positioning for the objects would be best within the box, and whether it would be able to detect multiple objects if they were on top of each other. 

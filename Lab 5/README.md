@@ -272,9 +272,20 @@ There are plenty of reasons that could cause problems here. Some of these includ
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+When setting up the system a user should be aware of it's limitations. It is not apparent what the limitations are and the user should be notified beforehand. Otherwise, a user might e.g. try to use the system to try to count blank pieces of paper on a white background, an environment in which the device does not perform well.
+
+2. How bad would they be impacted by a miss classification?
+
+A miss classification is a serious error in this environment. A package that is not containing all the desired parts would be classified as ready and might be shipped out to a customer or other division. This should be avoided by all means.
+
+3. How could change your interactive system to address this?
+
+By fixing the camera’s position and orientation, we could further avoid misclassification by getting the ideal camera angle every time and avoiding motion of the camera. There could be additional checks as well to increase accuracy, perhaps a scale under the box to weigh the box and all the items to ensure they match the shipped box specifications. On the conveyor belt leading into the box, we could have a button pressed everytime something moves off the conveyor and into the box to count how many items are in the box. 
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+We thought it would be helpful if we could optimize the system to count how many items were in the box. This way, once a correct number of items had been reached, we knew the box would be ready to be shipped, for example. Moreover, if we could identify what the items placed in the box were, then we could have a specific idea of if the correct objects were in each shipped box. 
 
 ### Part D
 ### Characterize your own Observant system

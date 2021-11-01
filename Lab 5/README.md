@@ -247,14 +247,18 @@ For our experiment, our plan was to place all the objects in the box and see whe
 
 <img width="559" alt="image" src="https://user-images.githubusercontent.com/42963791/139606525-c0d77d5a-05af-46c5-af98-f1357dc5b266.png">
 
-<img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
-
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The device does what it is supposed to mostly when the objects are clearly set apart, and the camera has a good angle to view all of them:
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
+
+
+3. When does it fail?
+4. When it fails, why does it fail?
+5. Based on the behavior you have seen, what other scenarios could cause problems?
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?

@@ -227,9 +227,11 @@ Try out different interaction outputs and inputs.
 
 <img width="547" alt="image" src="https://user-images.githubusercontent.com/42963791/139606177-6f32cea2-7525-4f78-a528-2a199b8b2bd4.png">
 
-<img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
-
 <img width="566" alt="image" src="https://user-images.githubusercontent.com/42963791/139606375-724a77e1-c7b7-41fa-baae-c08e3d9d54ce.png">
+
+<img width="559" alt="image" src="https://user-images.githubusercontent.com/42963791/139606525-c0d77d5a-05af-46c5-af98-f1357dc5b266.png">
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
 
 
 

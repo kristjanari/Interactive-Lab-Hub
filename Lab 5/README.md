@@ -217,6 +217,20 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+For our interaction, we decided to use the object detection model. For a class of objects, we wanted to use common objects - an airpods case, a Cornell id card, and a usb to hdmi converter cord. We also used the brown raspberry pi box. Our interaction was going to be detecting that all the items were in fact inside the raspberry pi box. This could be used in manufacturing, as described above - to make sure that all items are prepped in a box and ready to be shipped somewhere. 
+
+Below is a picture of the box with nothing in it:
+<img width="529" alt="Screen Shot 2021-10-31 at 8 30 33 PM" src="https://user-images.githubusercontent.com/52221419/139606798-e93c7124-e41e-4994-906c-cbf9d78499fa.png">
+
+Here is a photo of the box with all the correct components in it: 
+<img width="522" alt="Screen Shot 2021-10-31 at 8 30 47 PM" src="https://user-images.githubusercontent.com/52221419/139606810-76fe8ade-baf4-4d7d-90ed-22b7afb61cc8.png">
+
+For our experiment, our plan was to place all the objects in the box and see whether or not the object detection would detect all three different objects. We used objects of different shapes and sizes (3d prism - airpods, flat planar card - Cornell ID, black cord - HDMI converter). We also used the card since it had reflective properties to it, as some products might have as well. The goal is to have all three objects detected in the box. We also wanted to see what positioning for the objects would be best within the box, and whether it would be able to detect multiple objects if they were on top of each other. 
+
+### Part C
+### Test the interaction prototype
+
+
 <img width="644" alt="image" src="https://user-images.githubusercontent.com/42963791/139606132-fb50cfcc-0541-4a27-b962-9ba64a50bc2a.png">
 
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/42963791/139606147-b9047393-5cef-4303-b30c-caa697eb14fa.png">
@@ -232,11 +246,6 @@ Try out different interaction outputs and inputs.
 <img width="559" alt="image" src="https://user-images.githubusercontent.com/42963791/139606525-c0d77d5a-05af-46c5-af98-f1357dc5b266.png">
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
-
-
-
-### Part C
-### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:

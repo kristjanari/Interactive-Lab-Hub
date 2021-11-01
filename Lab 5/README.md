@@ -302,7 +302,11 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+#### Testing different material
 https://youtu.be/AhBG9kmPv8s
+
+#### Testing environment lighting
+https://youtu.be/tedOzA-No9E
 
 ### Part 2.
 

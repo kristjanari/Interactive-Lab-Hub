@@ -314,6 +314,9 @@ The system mostly breaks due to too much motion on the camera, or an incorrect v
 When the system breaks, it mostly does so by not detecting the objects in the frame. Sometimes, it will detect the object as two objects, although it is really just one object. This might be due to the object having different parts that look quite different, although it’s all connected. For example, the hdmi converter cord had the cable part as well as the heads where it was meant to be plugged in. You can see in the video the difficulty the system has in detecting the objects while in motion. 
 
 * What are other properties/behaviors of X?
+
+The system currently uses a fairly low resolution camera, and we wonder whether this affects the effectiveness of the object detection system. It should also be fixed to a certain point to avoid motion and orientation issues. 
+
 * How does X feel?
 
 The system feels quite laggy, with a significant and noticeable time difference between the real world and the object detection showing up on screen. This can cause problems with the manufacturing chain, as it may hold up production in order to wait for the system to detect all items in the box and give the go ahead. 

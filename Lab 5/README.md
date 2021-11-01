@@ -217,6 +217,19 @@ Try out different interaction outputs and inputs.
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+<img width="644" alt="image" src="https://user-images.githubusercontent.com/42963791/139606132-fb50cfcc-0541-4a27-b962-9ba64a50bc2a.png">
+
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/42963791/139606147-b9047393-5cef-4303-b30c-caa697eb14fa.png">
+
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/42963791/139606160-f761c643-1ec4-4fe1-917a-845f7881a07b.png">
+
+<img width="564" alt="image" src="https://user-images.githubusercontent.com/42963791/139606172-418da89d-fd09-4c55-a916-0be706620c03.png">
+
+<img width="547" alt="image" src="https://user-images.githubusercontent.com/42963791/139606177-6f32cea2-7525-4f78-a528-2a199b8b2bd4.png">
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
+
+
 ### Part C
 ### Test the interaction prototype
 

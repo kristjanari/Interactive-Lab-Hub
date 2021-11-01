@@ -229,6 +229,9 @@ Try out different interaction outputs and inputs.
 
 <img width="565" alt="image" src="https://user-images.githubusercontent.com/42963791/139606190-38179aed-083d-4f28-b1a2-688488da62cc.png">
 
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/42963791/139606375-724a77e1-c7b7-41fa-baae-c08e3d9d54ce.png">
+
+
 
 ### Part C
 ### Test the interaction prototype

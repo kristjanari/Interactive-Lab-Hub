@@ -256,7 +256,7 @@ The photos shown above all describe how the device failed to detect these object
 
 3. When it fails, why does it fail?
 
-We did not move the objects while attempting to detect them, so we know it has nothing to do with the motion of the objects. This did not prove that motion of the camera causes detection issues, which is a likely suspect. We also thought maybe the system had trouble detecting the objects themselves, so we tried detecting each object on their own: 
+We did not move the objects while attempting to detect them, so we know it has nothing to do with the motion of the objects. This did not prove that motion of the camera causes detection issues, which when we were attempting to get a good angle, we noticed played a significant part. So, too much motion of the camera certainly pushed the system to fail. We found that getting a good camera angle of the box and items inside it was quite important as well, and a bad angle made the system fail. We also thought maybe the system had trouble detecting the objects themselves, so we tried detecting each object on their own: 
 
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/42963791/139606160-f761c643-1ec4-4fe1-917a-845f7881a07b.png">
 

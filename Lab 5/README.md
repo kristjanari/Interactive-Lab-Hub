@@ -293,12 +293,30 @@ We thought it would be helpful if we could optimize the system to count how many
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+Our main motive for using this system is to improve manufacturing product flow so that every box shipped out of the facility has all the correct items inside of it. Since the system detects if objects are inside the box, if enough objects are inside the box then it would be ready for shipment. In the video, you can see that the video at the end has all its objects in it, so it is ready for shipment. 
+
 * What is a good environment for X?
+
+A good environment for the system is a well lit environment, with lots of contrast between the objects and the background behind them. The material video below shows that the device easily captures the airpods on the table because the background is simple and the object can be clearly separated from it. 
+
 * What is a bad environment for X?
+
+A bad environment for the system is one that is dark, and not much contrast between the objects and their background. The lighting video below shows how the device has difficulties identifying objects in darkness, especially when the objects are of similar color to the background. The device cannot identify the wallet in front of the black background but as soon as the wallet is brought in front of a colored background it is identified instantly.
+
+
 * When will X break?
+
+The system mostly breaks due to too much motion on the camera, or an incorrect viewing angle. You can see in the video below it has difficulty detecting objects while moving. 
+
 * When it breaks how will X break?
+
+When the system breaks, it mostly does so by not detecting the objects in the frame. Sometimes, it will detect the object as two objects, although it is really just one object. This might be due to the object having different parts that look quite different, although it’s all connected. For example, the hdmi converter cord had the cable part as well as the heads where it was meant to be plugged in. You can see in the video the difficulty the system has in detecting the objects while in motion. 
+
 * What are other properties/behaviors of X?
 * How does X feel?
+
+The system feels quite laggy, with a significant and noticeable time difference between the real world and the object detection showing up on screen. This can cause problems with the manufacturing chain, as it may hold up production in order to wait for the system to detect all items in the box and give the go ahead. 
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 

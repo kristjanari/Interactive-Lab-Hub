@@ -342,4 +342,5 @@ Victoria Zhang:
 Your design is a super great idea and could be useful in so many settings! The detailed explanation of the prototype also really helped me understand. One question I have is what is the user interaction with the device like (or are there any)? It would be great to also see how the device responds when the packaging is and is not complete.
 
 Agustin Gregory Forero:
+
 The device fails for many of the reasons we'd expect it to fail -- it's just hard for it to always have a good training set with limited data. I think the device is an awesome idea, though I wonder if it's possible to maybe let the user define their own "objects"? Is there a way the user could define which objects the algorithm searches for? It's fine if not, just an idea for a future prototype :) 

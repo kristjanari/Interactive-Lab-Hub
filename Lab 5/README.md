@@ -334,3 +334,9 @@ https://youtu.be/tedOzA-No9E
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+#### Comments
+
+Victoria Zhang:
+
+Your design is a super great idea and could be useful in so many settings! The detailed explanation of the prototype also really helped me understand. One question I have is what is the user interaction with the device like (or are there any)? It would be great to also see how the device responds when the packaging is and is not complete.

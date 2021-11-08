@@ -333,7 +333,6 @@ https://youtu.be/tedOzA-No9E
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
 #### Comments
 
@@ -343,4 +342,13 @@ Your design is a super great idea and could be useful in so many settings! The d
 
 Agustin Gregory Forero:
 
-The device fails for many of the reasons we'd expect it to fail -- it's just hard for it to always have a good training set with limited data. I think the device is an awesome idea, though I wonder if it's possible to maybe let the user define their own "objects"? Is there a way the user could define which objects the algorithm searches for? It's fine if not, just an idea for a future prototype :) 
+The device fails for many of the reasons we'd expect it to fail -- it's just hard for it to always have a good training set with limited data. I think the device is an awesome idea, though I wonder if it's possible to maybe let the user define their own "objects"? Is there a way the user could define which objects the algorithm searches for? It's fine if not, just an idea for a future prototype :)
+
+#### Summarized Comments:
+We were grateful for the feedback we recieved,they brought up interesting design features for us to think about.
+- One of the comments we received noted we have no clear way of notifying the end user when a shipment is ready, which is an important thing to think about. We decided to add this to our prototype. In the new design, an audio message is also played to indicate a complete package and a green light also flashes on the device.
+- We really like Agustin's idea to allow the user to control which object the device detects and that would definately be a thing to consider in th enext steps in the design process of this device.
+
+### Final prototype
+
+This video demonstrates how the device works and how the user can interact with it.

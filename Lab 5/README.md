@@ -352,3 +352,10 @@ We were grateful for the feedback we recieved,they brought up interesting design
 ### Final prototype
 
 This video demonstrates how the device works and how the user can interact with it.
+
+https://www.youtube.com/watch?v=HYkZy97577U
+
+We were able to improve upon our initial solution in a few ways:
+- We were able to get the device to mark all the objects as green once they were ready for shipment. 
+- We also figured out how to flash a green light to the shipping workers once a box was ready for shipment. 
+- Last, we implemented an auditory notification that speaks to the shipping workers describing a box being ready for shipment.  

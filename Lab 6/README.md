@@ -54,6 +54,11 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 ![publish settings](imgs/mqtt_explorer_2.png?raw=true)
 
+### Setting up MQTT
+
+<img width="1430" alt="image" src="https://user-images.githubusercontent.com/42963791/141323636-3e119ce9-f26e-48ef-a0e6-11b66ad6af05.png">
+
+
 
 ### Part B
 ### Send and Receive on your Pi

@@ -156,6 +156,13 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+### Interacting with the color sensor
+
+I'm wearing a purple sweater in the video, when I aimed the color sensor at it and pressed the button the color of the screen changed and the value on the MQTT server was updated.
+
+https://youtu.be/tL7v_wAlsx4
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/42963791/141327669-3f6fad30-b9d2-4b2f-ad92-933544885d5b.png">
 
 ### Part E
 ### Make it your own

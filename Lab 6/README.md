@@ -122,8 +122,17 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+Here is a [video of using our capacative sensor](https://youtu.be/ckndrSJwUqY) to stream data to the MQTT server. As you can see, we are connected to positions 0 and 5 on the capacative sensor, and our thread within MQTT is called `coolteam`. You can see our twizzler contact messages being displayed after touching the cables connected to 0 and 5. 
+
+![IMG_5750](https://user-images.githubusercontent.com/52221419/141361515-b2912b51-31fe-4c2d-847b-aaa792b128c4.PNG)
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+We tried to implement data streaming with the joystick. This was not too difficult, and we were able to figure it out fairly quickly. Here is a [video demonstrating our implementation](https://youtu.be/WeErTX74Y4Y). Similar to above, our thread within MQTT is called `coolteam` and once we move the joystick, the joystick values are streamed to MQTT. 
+
+Here is a picture showing the interaction as well.  
+
+<img width="1515" alt="Screen Shot 2021-11-11 at 3 05 12 PM" src="https://user-images.githubusercontent.com/52221419/141361774-e9c47aa5-f5bb-4515-b7ec-b98c3e18f1fb.png">
 
 ### Part D
 ### The One True ColorNet

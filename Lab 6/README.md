@@ -98,8 +98,15 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 <img width="622" alt="image" src="https://user-images.githubusercontent.com/42963791/141325096-00969ae3-9bca-4eaf-b7d7-eff8c3addf98.png">
 
-
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+
+### Robotic Surveillace Camera
+
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/42963791/141418244-da805020-f764-448e-9d63-36189d8c0618.png">
+
+A security gueard ca rotate the camera from distace to focus o differet parts of the property he is resposible for. 
+
+### Robotic Surveillace Camera
 
 ### Part C
 ### Streaming a Sensor

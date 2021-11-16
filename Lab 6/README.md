@@ -187,11 +187,25 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+To make this lab our own, we decided to implement the fruit polling system mentioned above. This would be wanted by fruit vendors (or really any store that wants to figure out what products to stock, here we chose fruits and a fruit store) so that they can choose the ideal quantity of fruit to stock the next day. They wouldn't even have to leave their store or office! This would similarly be wanted by potential customers in public so that they can ensure that the products they desire are in stock the next day at the store. A storyboard describing this situation is shown below. 
+
+<img width="766" alt="FruitPollStoryboard" src="https://user-images.githubusercontent.com/52221419/141923695-61be63f9-381e-4169-9305-088fca3930f3.png">
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The below diagram discusses the architecture of the system and how it works. Essentially, potential customers tap which fruit they want, at which point the raspberry pi stationed in the public will dictate that their vote has been confirmed. Then, the public raspberry pi will relay the information through the MQTT server to the private raspberry pi in the fruit vendors office. Then, the private raspberry pi will print out the total vote quantities for each fruit, and the fruit vendor employee can observe these values and update their stock for the coming days accordingly. 
+
+<img width="606" alt="FruitPollDiagram" src="https://user-images.githubusercontent.com/52221419/141923711-a4ef177e-d6b2-4300-a0c1-e1d1fd8c1039.png">
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+Yes! As you can see below, it is very simple to interact with the user interface. There is only one instruction, which is to touch your favorite food. It even offers audio confirmation to let the potential customer know that they have submitted their answer - at least from this end. the only faulty part that we realized after testing is that they can vote as many times as they want. The potential customer will not need to expect anything, as they are simply picking their favorite fruit. They may be a little confused exactly what it is for, except that it is for the "fruit store."
+
+<img width="264" alt="PublicEncounter" src="https://user-images.githubusercontent.com/52221419/141923767-a5140314-895a-449d-969e-05a37a8ae007.png">
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+Here is a [video documenting out prototype](https://youtu.be/tSC4AZRU4TU). It features a zoom of the POV from each party member - the potential customer in public, and the fruit vendor employee in the fruit vendor office. The office worker can observe the items getting added to the polled list and be ready for the next day, and the potential customer can easily add fruit items to the poll. 
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
